@@ -1,4 +1,4 @@
-module SnowoUtils
+module utils
 
 go 1.15
 

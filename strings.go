@@ -1,4 +1,4 @@
-package SnowoUtils
+package utils
 
 const ReEmail = `^[a-zA-Z0-9.!#$%&'*+/=?^_\x60{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$`
 const Minuscule = `abcdefghijklmnopqrstuvwxyz`

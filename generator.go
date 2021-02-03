@@ -1,4 +1,4 @@
-package SnowoUtils
+package utils
 
 import "github.com/google/uuid"
 

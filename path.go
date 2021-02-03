@@ -1,4 +1,4 @@
-package SnowoUtils
+package utils
 
 import (
 	"fmt"

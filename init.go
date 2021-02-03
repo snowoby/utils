@@ -1,4 +1,4 @@
-package SnowoUtils
+package utils
 
 func init() {
 
