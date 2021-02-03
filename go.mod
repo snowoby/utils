@@ -1,4 +1,4 @@
-module utils
+module github.com/snowoby/utils
 
 go 1.15
 
