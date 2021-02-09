@@ -7,6 +7,7 @@ import (
 
 var units = []string{"","Ki","Mi","Gi","Ti","Pi","Ei","Zi"}
 
+// from stack overflow
 func SizeOf(size int64) string {
 	s64 := float64(size)
 	for _, unit := range units {
@@ -16,11 +17,3 @@ func SizeOf(size int64) string {
 		s64/=1024
 	}
 }
-
-
-def sizeof_fmt(num, suffix="B"):
-for unit in ["","Ki","Mi","Gi","Ti","Pi","Ei","Zi"]:
-if abs(num) < 1024.0:
-return "%3.1f%s%s" % (num, unit, suffix)
-num /= 1024.0
-return "%.1f%s%s" % (num, "Yi", suffix)
