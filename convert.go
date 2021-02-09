@@ -16,4 +16,5 @@ func SizeOf(size int64) string {
 		}
 		s64/=1024
 	}
+	return fmt.Sprintf("%.1fYiB",s64)
 }
